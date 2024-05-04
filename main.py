@@ -1,5 +1,5 @@
 def main():
-    book_path = "books/frankenstein.txt"
+    book_path = "/home/user/workspace/github.com/trevmcar/bookbot/books/frankenstein.txt"
     text = get_book_text(book_path)
     word_count = get_word_count(text)
     letter_count = char_counter(text)
